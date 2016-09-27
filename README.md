@@ -23,24 +23,24 @@ Installation:
 
 - Download iOS Developers Tools from NeuroSky (current version is 4.2)
 
-http://store.neurosky.com/products/ios-developer-tools-4
+ http://store.neurosky.com/products/ios-developer-tools-4
 
 - Copy the following files from NeuroSky Stream SDK to Orbit source directory:
 
-Orbit/Libraries/StreamSDK/StreamSDK.a
-Orbit/Libraries/StreamSDK/TGSEEGPower.h
-Orbit/Libraries/StreamSDK/TGStream.h
-Orbit/Libraries/StreamSDK/TGStreamDelegate.h
-Orbit/Libraries/StreamSDK/TGStreamEnum.h
+ Orbit/Libraries/StreamSDK/StreamSDK.a
+ Orbit/Libraries/StreamSDK/TGSEEGPower.h
+ Orbit/Libraries/StreamSDK/TGStream.h
+ Orbit/Libraries/StreamSDK/TGStreamDelegate.h
+ Orbit/Libraries/StreamSDK/TGStreamEnum.h
 
 - Copy the following files from NeuroSky MWM SDK to Orbit source directory:
 
-Orbit/Libraries/MWMSDK/MWMDevice.h
-Orbit/Libraries/MWMSDK/MWMDeviceDelegate.h
-Orbit/Libraries/MWMSDK/TGBleManager.h
-Orbit/Libraries/MWMSDK/TGBleManagerDelegate.h
-Orbit/Libraries/MWMSDK/TGEnumInfo.h
-Orbit/Libraries/MWMSDK/libBleSDK.a
+ Orbit/Libraries/MWMSDK/MWMDevice.h
+ Orbit/Libraries/MWMSDK/MWMDeviceDelegate.h
+ Orbit/Libraries/MWMSDK/TGBleManager.h
+ Orbit/Libraries/MWMSDK/TGBleManagerDelegate.h
+ Orbit/Libraries/MWMSDK/TGEnumInfo.h
+ Orbit/Libraries/MWMSDK/libBleSDK.a
 
 - Open project file Orbit.xcodeproj in Xcode 8.0+
 
