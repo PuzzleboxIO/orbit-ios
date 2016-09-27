@@ -1,0 +1,99 @@
+.button {
+    font-family:default;
+
+    border: solid black 1px;
+    padding: 2px 5px;
+    font-size: 1.6em;
+    color: #000;
+    background-color:#aeaeae;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+}
+
+.chapter {
+
+    font-family:default;
+
+    width: 114px;
+
+    border: solid black 1px;
+    padding: 2px 5px;
+    font-size: 1.6em;
+    color: #000;
+    background-color:#eaeaea;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 9px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    float: center;
+}
+
+.prev {
+  position: absolute; 
+  top: 100%; 
+  margin-top: -92px;
+  left: 0;
+  margin-left: 5px;
+}
+
+.next {
+  position: absolute; 
+  top: 100%; 
+  margin-top: -92px;
+  right: 0;
+  margin-right: 5px;
+}
+
+.contents {
+  position: absolute; 
+  top: 100%; 
+  margin-top: -92px;
+  margin-left: 120px;
+}
+
+.table {
+    width: 100%;
+    padding: 0px 0px;
+    border: 0px;
+}
+
+body {
+    font-family:ariel;
+}
+
+h2 {
+    font-family:"Droid Sans";
+}
+
+h3 {
+    font-family:"Droid Sans";
+}
+
+.welcome {
+    font-family:"Droid Sans";
+    font-size: 1.0em;
+}
+
+.tutorial {
+    font-family:"Droid Sans";
+    font-size: 0.8em;
+}
+
+.label {
+    font-family:"Droid Sans";
+    font-size: 0.8em;
+}

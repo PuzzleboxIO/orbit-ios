@@ -1,0 +1,1186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520C73F91D90B94900A09634 /* AudioGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 520C73F81D90B94900A09634 /* AudioGenerator.m */; };
+		520C73FB1D90B99900A09634 /* ControlSignalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C73FA1D90B99900A09634 /* ControlSignalManager.swift */; };
+		520C740F1D916F1D00A09634 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520C740E1D916F1D00A09634 /* ExternalAccessory.framework */; };
+		520C74281D9175C900A09634 /* libBleSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 520C74271D9175C900A09634 /* libBleSDK.a */; };
+		520C742C1D91B04100A09634 /* AdvancedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C742B1D91B04100A09634 /* AdvancedViewController.swift */; };
+		520C742E1D91B20200A09634 /* SynapseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C742D1D91B20200A09634 /* SynapseManager.swift */; };
+		525C4A171D8D6C6E005C15EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C4A161D8D6C6E005C15EA /* AppDelegate.swift */; };
+		525C4A191D8D6C6E005C15EA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C4A181D8D6C6E005C15EA /* FirstViewController.swift */; };
+		525C4A1E1D8D6C6E005C15EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A1C1D8D6C6E005C15EA /* Main.storyboard */; };
+		525C4A201D8D6C6E005C15EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A1F1D8D6C6E005C15EA /* Assets.xcassets */; };
+		525C4A231D8D6C6E005C15EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A211D8D6C6E005C15EA /* LaunchScreen.storyboard */; };
+		525C4A2E1D8D6C6E005C15EA /* OrbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C4A2D1D8D6C6E005C15EA /* OrbitTests.swift */; };
+		525C4A391D8D6C6E005C15EA /* OrbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C4A381D8D6C6E005C15EA /* OrbitUITests.swift */; };
+		525C4A4D1D8D6D58005C15EA /* StreamSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 525C4A481D8D6D58005C15EA /* StreamSDK.a */; };
+		525C4A631D8D6E56005C15EA /* status_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A4F1D8D6E56005C15EA /* status_0.png */; };
+		525C4A641D8D6E56005C15EA /* status_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A501D8D6E56005C15EA /* status_0@2x.png */; };
+		525C4A651D8D6E56005C15EA /* status_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A511D8D6E56005C15EA /* status_1.png */; };
+		525C4A661D8D6E56005C15EA /* status_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A521D8D6E56005C15EA /* status_1@2x.png */; };
+		525C4A671D8D6E56005C15EA /* status_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A531D8D6E56005C15EA /* status_2.png */; };
+		525C4A681D8D6E56005C15EA /* status_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A541D8D6E56005C15EA /* status_2@2x.png */; };
+		525C4A691D8D6E56005C15EA /* status_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A551D8D6E56005C15EA /* status_3.png */; };
+		525C4A6A1D8D6E56005C15EA /* status_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A561D8D6E56005C15EA /* status_3@2x.png */; };
+		525C4A6B1D8D6E56005C15EA /* status_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A571D8D6E56005C15EA /* status_4.png */; };
+		525C4A6C1D8D6E56005C15EA /* status_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A581D8D6E56005C15EA /* status_4@2x.png */; };
+		525C4A6D1D8D6E56005C15EA /* tab_advanced-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A591D8D6E56005C15EA /* tab_advanced-30x30.png */; };
+		525C4A6E1D8D6E56005C15EA /* tab_advanced-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A5A1D8D6E56005C15EA /* tab_advanced-60x60.png */; };
+		525C4A6F1D8D6E56005C15EA /* tab_flight-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A5B1D8D6E56005C15EA /* tab_flight-30x30.png */; };
+		525C4A701D8D6E56005C15EA /* tab_flight-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A5C1D8D6E56005C15EA /* tab_flight-60x60.png */; };
+		525C4A711D8D6E56005C15EA /* tab_puzzlebox-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A5D1D8D6E56005C15EA /* tab_puzzlebox-30x30.png */; };
+		525C4A721D8D6E56005C15EA /* tab_puzzlebox-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A5E1D8D6E56005C15EA /* tab_puzzlebox-60x60.png */; };
+		525C4A731D8D6E56005C15EA /* tab_support-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A5F1D8D6E56005C15EA /* tab_support-30x30.png */; };
+		525C4A741D8D6E56005C15EA /* tab_support-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A601D8D6E56005C15EA /* tab_support-60x60.png */; };
+		525C4A751D8D6E56005C15EA /* tab_welcome-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A611D8D6E56005C15EA /* tab_welcome-30x30.png */; };
+		525C4A761D8D6E56005C15EA /* tab_welcome-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C4A621D8D6E56005C15EA /* tab_welcome-60x60.png */; };
+		525C4A781D8D6FD7005C15EA /* FlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C4A771D8D6FD7005C15EA /* FlightViewController.swift */; };
+		525C4A7F1D8DCAD1005C15EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525C4A7E1D8DCAD1005C15EA /* Foundation.framework */; };
+		525C4A811D8DCAE0005C15EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525C4A801D8DCAE0005C15EA /* UIKit.framework */; };
+		525C4A831D8DCAEA005C15EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525C4A821D8DCAEA005C15EA /* CoreGraphics.framework */; };
+		52AFE3D11D8EDF5F00B2AFEC /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AFE3D01D8EDF5F00B2AFEC /* TutorialViewController.swift */; };
+		52AFE4481D8EE46600B2AFEC /* contents.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4211D8EE46600B2AFEC /* contents.html */; };
+		52AFE4491D8EE46600B2AFEC /* faq.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4221D8EE46600B2AFEC /* faq.html */; };
+		52AFE44A1D8EE46600B2AFEC /* frame.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4231D8EE46600B2AFEC /* frame.html */; };
+		52AFE44C1D8EE46600B2AFEC /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4251D8EE46600B2AFEC /* index.html */; };
+		52AFE44D1D8EE46600B2AFEC /* step01-1.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4261D8EE46600B2AFEC /* step01-1.html */; };
+		52AFE44E1D8EE46600B2AFEC /* step01-2.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4271D8EE46600B2AFEC /* step01-2.html */; };
+		52AFE44F1D8EE46600B2AFEC /* step02-1.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4281D8EE46600B2AFEC /* step02-1.html */; };
+		52AFE4501D8EE46600B2AFEC /* step02-2.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4291D8EE46600B2AFEC /* step02-2.html */; };
+		52AFE4511D8EE46600B2AFEC /* step03.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE42A1D8EE46600B2AFEC /* step03.html */; };
+		52AFE4521D8EE46600B2AFEC /* step04-1.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE42B1D8EE46600B2AFEC /* step04-1.html */; };
+		52AFE4531D8EE46600B2AFEC /* step04-2.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE42C1D8EE46600B2AFEC /* step04-2.html */; };
+		52AFE4541D8EE46600B2AFEC /* step05-1.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE42D1D8EE46600B2AFEC /* step05-1.html */; };
+		52AFE4551D8EE46600B2AFEC /* step05-2.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE42E1D8EE46600B2AFEC /* step05-2.html */; };
+		52AFE4561D8EE46600B2AFEC /* step05-3.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE42F1D8EE46600B2AFEC /* step05-3.html */; };
+		52AFE4571D8EE46600B2AFEC /* step05-4.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4301D8EE46600B2AFEC /* step05-4.html */; };
+		52AFE4581D8EE46600B2AFEC /* step06-1.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4311D8EE46600B2AFEC /* step06-1.html */; };
+		52AFE4591D8EE46600B2AFEC /* step06-2.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4321D8EE46600B2AFEC /* step06-2.html */; };
+		52AFE45A1D8EE46600B2AFEC /* step06-3.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4331D8EE46600B2AFEC /* step06-3.html */; };
+		52AFE45B1D8EE46600B2AFEC /* step07-1.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4341D8EE46600B2AFEC /* step07-1.html */; };
+		52AFE45C1D8EE46600B2AFEC /* step07-2.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4351D8EE46600B2AFEC /* step07-2.html */; };
+		52AFE45D1D8EE46600B2AFEC /* step08-1.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4361D8EE46600B2AFEC /* step08-1.html */; };
+		52AFE45E1D8EE46600B2AFEC /* step08-2.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4371D8EE46600B2AFEC /* step08-2.html */; };
+		52AFE45F1D8EE46600B2AFEC /* step08-3.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4381D8EE46600B2AFEC /* step08-3.html */; };
+		52AFE4601D8EE46600B2AFEC /* step08-4.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4391D8EE46600B2AFEC /* step08-4.html */; };
+		52AFE4611D8EE46600B2AFEC /* step08-5.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE43A1D8EE46600B2AFEC /* step08-5.html */; };
+		52AFE4621D8EE46600B2AFEC /* step09.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE43B1D8EE46600B2AFEC /* step09.html */; };
+		52AFE4631D8EE46600B2AFEC /* step10.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE43C1D8EE46600B2AFEC /* step10.html */; };
+		52AFE4641D8EE46600B2AFEC /* step11-1.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE43D1D8EE46600B2AFEC /* step11-1.html */; };
+		52AFE4651D8EE46600B2AFEC /* step11-2.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE43E1D8EE46600B2AFEC /* step11-2.html */; };
+		52AFE4661D8EE46600B2AFEC /* step11-3.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE43F1D8EE46600B2AFEC /* step11-3.html */; };
+		52AFE4671D8EE46600B2AFEC /* step11-4.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4401D8EE46600B2AFEC /* step11-4.html */; };
+		52AFE4681D8EE46600B2AFEC /* step11-5.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4411D8EE46600B2AFEC /* step11-5.html */; };
+		52AFE4691D8EE46600B2AFEC /* step11-6.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4421D8EE46600B2AFEC /* step11-6.html */; };
+		52AFE46A1D8EE46600B2AFEC /* step11-7.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4431D8EE46600B2AFEC /* step11-7.html */; };
+		52AFE46B1D8EE46600B2AFEC /* step11-8.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4441D8EE46600B2AFEC /* step11-8.html */; };
+		52AFE46C1D8EE46600B2AFEC /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4451D8EE46600B2AFEC /* style.css */; };
+		52AFE46D1D8EE46600B2AFEC /* support.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4461D8EE46600B2AFEC /* support.html */; };
+		52AFE46E1D8EE46600B2AFEC /* tips.html in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4471D8EE46600B2AFEC /* tips.html */; };
+		52AFE49E1D8EE66D00B2AFEC /* puzzlebox_logo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4701D8EE66D00B2AFEC /* puzzlebox_logo.pdf */; };
+		52AFE49F1D8EE66D00B2AFEC /* tutorial-00-introduction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4711D8EE66D00B2AFEC /* tutorial-00-introduction.jpg */; };
+		52AFE4A01D8EE66D00B2AFEC /* tutorial-01-orbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4721D8EE66D00B2AFEC /* tutorial-01-orbit.jpg */; };
+		52AFE4A11D8EE66D00B2AFEC /* tutorial-02-2-brainwave_signals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4731D8EE66D00B2AFEC /* tutorial-02-2-brainwave_signals.jpg */; };
+		52AFE4A21D8EE66D00B2AFEC /* tutorial-02-charging-infrared.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4741D8EE66D00B2AFEC /* tutorial-02-charging-infrared.jpg */; };
+		52AFE4A31D8EE66D00B2AFEC /* tutorial-02-charging-orbit-angle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4751D8EE66D00B2AFEC /* tutorial-02-charging-orbit-angle.jpg */; };
+		52AFE4A41D8EE66D00B2AFEC /* tutorial-02-charging-orbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4761D8EE66D00B2AFEC /* tutorial-02-charging-orbit.jpg */; };
+		52AFE4A51D8EE66D00B2AFEC /* tutorial-02-charging-usb-lit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4771D8EE66D00B2AFEC /* tutorial-02-charging-usb-lit.jpg */; };
+		52AFE4A61D8EE66D00B2AFEC /* tutorial-02-charging-usb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4781D8EE66D00B2AFEC /* tutorial-02-charging-usb.jpg */; };
+		52AFE4A71D8EE66D00B2AFEC /* tutorial-03-connecting_infrared.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4791D8EE66D00B2AFEC /* tutorial-03-connecting_infrared.jpg */; };
+		52AFE4A81D8EE66D00B2AFEC /* tutorial-03-infrared_connected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE47A1D8EE66D00B2AFEC /* tutorial-03-infrared_connected.jpg */; };
+		52AFE4A91D8EE66D00B2AFEC /* tutorial-03-volume_max-headphones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE47B1D8EE66D00B2AFEC /* tutorial-03-volume_max-headphones.jpg */; };
+		52AFE4AA1D8EE66D00B2AFEC /* tutorial-03-volume_max.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE47C1D8EE66D00B2AFEC /* tutorial-03-volume_max.jpg */; };
+		52AFE4AB1D8EE66D00B2AFEC /* tutorial-04-headset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE47D1D8EE66D00B2AFEC /* tutorial-04-headset.jpg */; };
+		52AFE4AC1D8EE66D00B2AFEC /* tutorial-05-1-bluetooth_pairing.png in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE47E1D8EE66D00B2AFEC /* tutorial-05-1-bluetooth_pairing.png */; };
+		52AFE4AD1D8EE66D00B2AFEC /* tutorial-05-2-eeg_connected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE47F1D8EE66D00B2AFEC /* tutorial-05-2-eeg_connected.jpg */; };
+		52AFE4AE1D8EE66D00B2AFEC /* tutorial-05-bluetooth_headset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4801D8EE66D00B2AFEC /* tutorial-05-bluetooth_headset.jpg */; };
+		52AFE4AF1D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4811D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-front.jpg */; };
+		52AFE4B01D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-side.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4821D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-side.jpg */; };
+		52AFE4B11D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4831D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn.jpg */; };
+		52AFE4B21D8EE66D00B2AFEC /* tutorial-06-2-check_headset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4841D8EE66D00B2AFEC /* tutorial-06-2-check_headset.jpg */; };
+		52AFE4B31D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-ear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4851D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-ear.jpg */; };
+		52AFE4B41D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-forehead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4861D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-forehead.jpg */; };
+		52AFE4B51D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4871D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points.jpg */; };
+		52AFE4B61D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4881D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.gif */; };
+		52AFE4B71D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4891D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.jpg */; };
+		52AFE4B81D8EE66D00B2AFEC /* tutorial-07-signal-0_percent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE48A1D8EE66D00B2AFEC /* tutorial-07-signal-0_percent.jpg */; };
+		52AFE4B91D8EE66D00B2AFEC /* tutorial-07-signal-51_percent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE48B1D8EE66D00B2AFEC /* tutorial-07-signal-51_percent.jpg */; };
+		52AFE4BA1D8EE66D00B2AFEC /* tutorial-07-signal-100_percent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE48C1D8EE66D00B2AFEC /* tutorial-07-signal-100_percent.jpg */; };
+		52AFE4BB1D8EE66D00B2AFEC /* tutorial-08-1-meters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE48D1D8EE66D00B2AFEC /* tutorial-08-1-meters.jpg */; };
+		52AFE4BC1D8EE66D00B2AFEC /* tutorial-08-2-attention.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE48E1D8EE66D00B2AFEC /* tutorial-08-2-attention.jpg */; };
+		52AFE4BD1D8EE66D00B2AFEC /* tutorial-08-3-meditation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE48F1D8EE66D00B2AFEC /* tutorial-08-3-meditation.jpg */; };
+		52AFE4BE1D8EE66D00B2AFEC /* tutorial-08-meters-attention.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4901D8EE66D00B2AFEC /* tutorial-08-meters-attention.gif */; };
+		52AFE4BF1D8EE66D00B2AFEC /* tutorial-08-meters-meditation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4911D8EE66D00B2AFEC /* tutorial-08-meters-meditation.gif */; };
+		52AFE4C01D8EE66D00B2AFEC /* tutorial-08-meters.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4921D8EE66D00B2AFEC /* tutorial-08-meters.gif */; };
+		52AFE4C11D8EE66D00B2AFEC /* tutorial-09-flight-hover.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4931D8EE66D00B2AFEC /* tutorial-09-flight-hover.gif */; };
+		52AFE4C21D8EE66D00B2AFEC /* tutorial-09-flight-transmit-off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4941D8EE66D00B2AFEC /* tutorial-09-flight-transmit-off.jpg */; };
+		52AFE4C31D8EE66D00B2AFEC /* tutorial-09-flight-transmit-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4951D8EE66D00B2AFEC /* tutorial-09-flight-transmit-on.jpg */; };
+		52AFE4C41D8EE66D00B2AFEC /* tutorial-09-flight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4961D8EE66D00B2AFEC /* tutorial-09-flight.jpg */; };
+		52AFE4C51D8EE66D00B2AFEC /* tutorial-10-scoring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4971D8EE66D00B2AFEC /* tutorial-10-scoring.jpg */; };
+		52AFE4C61D8EE66D00B2AFEC /* tutorial-11-steering-presets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4981D8EE66D00B2AFEC /* tutorial-11-steering-presets.jpg */; };
+		52AFE4C71D8EE66D00B2AFEC /* tutorial-11-steering-throttle_only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4991D8EE66D00B2AFEC /* tutorial-11-steering-throttle_only.jpg */; };
+		52AFE4C81D8EE66D00B2AFEC /* tutorial-11-steering-throttle_yaw_pitch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE49A1D8EE66D00B2AFEC /* tutorial-11-steering-throttle_yaw_pitch.jpg */; };
+		52AFE4C91D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE49B1D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor_off.jpg */; };
+		52AFE4CA1D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE49C1D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor.jpg */; };
+		52AFE4CB1D8EE66D00B2AFEC /* welcome-icons.png in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE49D1D8EE66D00B2AFEC /* welcome-icons.png */; };
+		52AFE4D01D8EE7C500B2AFEC /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4CD1D8EE7C500B2AFEC /* Apache License.txt */; };
+		52AFE4D11D8EE7C500B2AFEC /* DroidSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4CE1D8EE7C500B2AFEC /* DroidSans-Bold.ttf */; };
+		52AFE4D21D8EE7C500B2AFEC /* DroidSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4CF1D8EE7C500B2AFEC /* DroidSans.ttf */; };
+		52AFE4D51D8EEB2500B2AFEC /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AFE4D41D8EEB2500B2AFEC /* SupportViewController.swift */; };
+		52B95B8A1D8DD7C400215118 /* sample_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52B95B891D8DD7C400215118 /* sample_data.txt */; };
+		52C069021D94985400B2802F /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C069011D94985400B2802F /* HomepageViewController.swift */; };
+		52D59AD11D958EA20046DA2E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D59AD01D958EA20046DA2E /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525C4A2A1D8D6C6E005C15EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525C4A0B1D8D6C6E005C15EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525C4A121D8D6C6E005C15EA;
+			remoteInfo = Orbit;
+		};
+		525C4A351D8D6C6E005C15EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525C4A0B1D8D6C6E005C15EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525C4A121D8D6C6E005C15EA;
+			remoteInfo = Orbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520C73F71D90B94900A09634 /* AudioGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioGenerator.h; sourceTree = "<group>"; };
+		520C73F81D90B94900A09634 /* AudioGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioGenerator.m; sourceTree = "<group>"; };
+		520C73FA1D90B99900A09634 /* ControlSignalManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlSignalManager.swift; sourceTree = "<group>"; };
+		520C740E1D916F1D00A09634 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		520C74221D9175C300A09634 /* MWMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWMDevice.h; path = Libraries/MWMSDK/MWMDevice.h; sourceTree = SOURCE_ROOT; };
+		520C74231D9175C300A09634 /* MWMDeviceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWMDeviceDelegate.h; path = Libraries/MWMSDK/MWMDeviceDelegate.h; sourceTree = SOURCE_ROOT; };
+		520C74241D9175C300A09634 /* TGBleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGBleManager.h; path = Libraries/MWMSDK/TGBleManager.h; sourceTree = SOURCE_ROOT; };
+		520C74251D9175C300A09634 /* TGBleManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGBleManagerDelegate.h; path = Libraries/MWMSDK/TGBleManagerDelegate.h; sourceTree = SOURCE_ROOT; };
+		520C74261D9175C300A09634 /* TGEnumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGEnumInfo.h; path = Libraries/MWMSDK/TGEnumInfo.h; sourceTree = SOURCE_ROOT; };
+		520C74271D9175C900A09634 /* libBleSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBleSDK.a; path = Libraries/MWMSDK/libBleSDK.a; sourceTree = "<group>"; };
+		520C742B1D91B04100A09634 /* AdvancedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedViewController.swift; sourceTree = "<group>"; };
+		520C742D1D91B20200A09634 /* SynapseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynapseManager.swift; sourceTree = "<group>"; };
+		525C4A131D8D6C6E005C15EA /* Orbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525C4A161D8D6C6E005C15EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525C4A181D8D6C6E005C15EA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		525C4A1D1D8D6C6E005C15EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525C4A1F1D8D6C6E005C15EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525C4A221D8D6C6E005C15EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525C4A241D8D6C6E005C15EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525C4A291D8D6C6E005C15EA /* OrbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525C4A2D1D8D6C6E005C15EA /* OrbitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitTests.swift; sourceTree = "<group>"; };
+		525C4A2F1D8D6C6E005C15EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525C4A341D8D6C6E005C15EA /* OrbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525C4A381D8D6C6E005C15EA /* OrbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitUITests.swift; sourceTree = "<group>"; };
+		525C4A3A1D8D6C6E005C15EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525C4A481D8D6D58005C15EA /* StreamSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = StreamSDK.a; path = Libraries/StreamSDK/StreamSDK.a; sourceTree = SOURCE_ROOT; };
+		525C4A491D8D6D58005C15EA /* TGSEEGPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGSEEGPower.h; path = Libraries/StreamSDK/TGSEEGPower.h; sourceTree = SOURCE_ROOT; };
+		525C4A4A1D8D6D58005C15EA /* TGStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGStream.h; path = Libraries/StreamSDK/TGStream.h; sourceTree = SOURCE_ROOT; };
+		525C4A4B1D8D6D58005C15EA /* TGStreamDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGStreamDelegate.h; path = Libraries/StreamSDK/TGStreamDelegate.h; sourceTree = SOURCE_ROOT; };
+		525C4A4C1D8D6D58005C15EA /* TGStreamEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGStreamEnum.h; path = Libraries/StreamSDK/TGStreamEnum.h; sourceTree = SOURCE_ROOT; };
+		525C4A4F1D8D6E56005C15EA /* status_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = status_0.png; path = Images/status_0.png; sourceTree = "<group>"; };
+		525C4A501D8D6E56005C15EA /* status_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "status_0@2x.png"; path = "Images/status_0@2x.png"; sourceTree = "<group>"; };
+		525C4A511D8D6E56005C15EA /* status_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = status_1.png; path = Images/status_1.png; sourceTree = "<group>"; };
+		525C4A521D8D6E56005C15EA /* status_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "status_1@2x.png"; path = "Images/status_1@2x.png"; sourceTree = "<group>"; };
+		525C4A531D8D6E56005C15EA /* status_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = status_2.png; path = Images/status_2.png; sourceTree = "<group>"; };
+		525C4A541D8D6E56005C15EA /* status_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "status_2@2x.png"; path = "Images/status_2@2x.png"; sourceTree = "<group>"; };
+		525C4A551D8D6E56005C15EA /* status_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = status_3.png; path = Images/status_3.png; sourceTree = "<group>"; };
+		525C4A561D8D6E56005C15EA /* status_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "status_3@2x.png"; path = "Images/status_3@2x.png"; sourceTree = "<group>"; };
+		525C4A571D8D6E56005C15EA /* status_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = status_4.png; path = Images/status_4.png; sourceTree = "<group>"; };
+		525C4A581D8D6E56005C15EA /* status_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "status_4@2x.png"; path = "Images/status_4@2x.png"; sourceTree = "<group>"; };
+		525C4A591D8D6E56005C15EA /* tab_advanced-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_advanced-30x30.png"; path = "Images/tab_advanced-30x30.png"; sourceTree = "<group>"; };
+		525C4A5A1D8D6E56005C15EA /* tab_advanced-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_advanced-60x60.png"; path = "Images/tab_advanced-60x60.png"; sourceTree = "<group>"; };
+		525C4A5B1D8D6E56005C15EA /* tab_flight-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_flight-30x30.png"; path = "Images/tab_flight-30x30.png"; sourceTree = "<group>"; };
+		525C4A5C1D8D6E56005C15EA /* tab_flight-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_flight-60x60.png"; path = "Images/tab_flight-60x60.png"; sourceTree = "<group>"; };
+		525C4A5D1D8D6E56005C15EA /* tab_puzzlebox-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_puzzlebox-30x30.png"; path = "Images/tab_puzzlebox-30x30.png"; sourceTree = "<group>"; };
+		525C4A5E1D8D6E56005C15EA /* tab_puzzlebox-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_puzzlebox-60x60.png"; path = "Images/tab_puzzlebox-60x60.png"; sourceTree = "<group>"; };
+		525C4A5F1D8D6E56005C15EA /* tab_support-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_support-30x30.png"; path = "Images/tab_support-30x30.png"; sourceTree = "<group>"; };
+		525C4A601D8D6E56005C15EA /* tab_support-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_support-60x60.png"; path = "Images/tab_support-60x60.png"; sourceTree = "<group>"; };
+		525C4A611D8D6E56005C15EA /* tab_welcome-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_welcome-30x30.png"; path = "Images/tab_welcome-30x30.png"; sourceTree = "<group>"; };
+		525C4A621D8D6E56005C15EA /* tab_welcome-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_welcome-60x60.png"; path = "Images/tab_welcome-60x60.png"; sourceTree = "<group>"; };
+		525C4A771D8D6FD7005C15EA /* FlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightViewController.swift; sourceTree = "<group>"; };
+		525C4A791D8D76D9005C15EA /* Orbit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orbit-Bridging-Header.h"; sourceTree = "<group>"; };
+		525C4A7E1D8DCAD1005C15EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		525C4A801D8DCAE0005C15EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		525C4A821D8DCAEA005C15EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52AFE3D01D8EDF5F00B2AFEC /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		52AFE4211D8EE46600B2AFEC /* contents.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = contents.html; path = Tutorial/contents.html; sourceTree = "<group>"; };
+		52AFE4221D8EE46600B2AFEC /* faq.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = faq.html; path = Tutorial/faq.html; sourceTree = "<group>"; };
+		52AFE4231D8EE46600B2AFEC /* frame.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = frame.html; path = Tutorial/frame.html; sourceTree = "<group>"; };
+		52AFE4251D8EE46600B2AFEC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = Tutorial/index.html; sourceTree = "<group>"; };
+		52AFE4261D8EE46600B2AFEC /* step01-1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step01-1.html"; path = "Tutorial/step01-1.html"; sourceTree = "<group>"; };
+		52AFE4271D8EE46600B2AFEC /* step01-2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step01-2.html"; path = "Tutorial/step01-2.html"; sourceTree = "<group>"; };
+		52AFE4281D8EE46600B2AFEC /* step02-1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step02-1.html"; path = "Tutorial/step02-1.html"; sourceTree = "<group>"; };
+		52AFE4291D8EE46600B2AFEC /* step02-2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step02-2.html"; path = "Tutorial/step02-2.html"; sourceTree = "<group>"; };
+		52AFE42A1D8EE46600B2AFEC /* step03.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = step03.html; path = Tutorial/step03.html; sourceTree = "<group>"; };
+		52AFE42B1D8EE46600B2AFEC /* step04-1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step04-1.html"; path = "Tutorial/step04-1.html"; sourceTree = "<group>"; };
+		52AFE42C1D8EE46600B2AFEC /* step04-2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step04-2.html"; path = "Tutorial/step04-2.html"; sourceTree = "<group>"; };
+		52AFE42D1D8EE46600B2AFEC /* step05-1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step05-1.html"; path = "Tutorial/step05-1.html"; sourceTree = "<group>"; };
+		52AFE42E1D8EE46600B2AFEC /* step05-2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step05-2.html"; path = "Tutorial/step05-2.html"; sourceTree = "<group>"; };
+		52AFE42F1D8EE46600B2AFEC /* step05-3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step05-3.html"; path = "Tutorial/step05-3.html"; sourceTree = "<group>"; };
+		52AFE4301D8EE46600B2AFEC /* step05-4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step05-4.html"; path = "Tutorial/step05-4.html"; sourceTree = "<group>"; };
+		52AFE4311D8EE46600B2AFEC /* step06-1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step06-1.html"; path = "Tutorial/step06-1.html"; sourceTree = "<group>"; };
+		52AFE4321D8EE46600B2AFEC /* step06-2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step06-2.html"; path = "Tutorial/step06-2.html"; sourceTree = "<group>"; };
+		52AFE4331D8EE46600B2AFEC /* step06-3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step06-3.html"; path = "Tutorial/step06-3.html"; sourceTree = "<group>"; };
+		52AFE4341D8EE46600B2AFEC /* step07-1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step07-1.html"; path = "Tutorial/step07-1.html"; sourceTree = "<group>"; };
+		52AFE4351D8EE46600B2AFEC /* step07-2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step07-2.html"; path = "Tutorial/step07-2.html"; sourceTree = "<group>"; };
+		52AFE4361D8EE46600B2AFEC /* step08-1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step08-1.html"; path = "Tutorial/step08-1.html"; sourceTree = "<group>"; };
+		52AFE4371D8EE46600B2AFEC /* step08-2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step08-2.html"; path = "Tutorial/step08-2.html"; sourceTree = "<group>"; };
+		52AFE4381D8EE46600B2AFEC /* step08-3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step08-3.html"; path = "Tutorial/step08-3.html"; sourceTree = "<group>"; };
+		52AFE4391D8EE46600B2AFEC /* step08-4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step08-4.html"; path = "Tutorial/step08-4.html"; sourceTree = "<group>"; };
+		52AFE43A1D8EE46600B2AFEC /* step08-5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step08-5.html"; path = "Tutorial/step08-5.html"; sourceTree = "<group>"; };
+		52AFE43B1D8EE46600B2AFEC /* step09.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = step09.html; path = Tutorial/step09.html; sourceTree = "<group>"; };
+		52AFE43C1D8EE46600B2AFEC /* step10.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = step10.html; path = Tutorial/step10.html; sourceTree = "<group>"; };
+		52AFE43D1D8EE46600B2AFEC /* step11-1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step11-1.html"; path = "Tutorial/step11-1.html"; sourceTree = "<group>"; };
+		52AFE43E1D8EE46600B2AFEC /* step11-2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step11-2.html"; path = "Tutorial/step11-2.html"; sourceTree = "<group>"; };
+		52AFE43F1D8EE46600B2AFEC /* step11-3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step11-3.html"; path = "Tutorial/step11-3.html"; sourceTree = "<group>"; };
+		52AFE4401D8EE46600B2AFEC /* step11-4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step11-4.html"; path = "Tutorial/step11-4.html"; sourceTree = "<group>"; };
+		52AFE4411D8EE46600B2AFEC /* step11-5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step11-5.html"; path = "Tutorial/step11-5.html"; sourceTree = "<group>"; };
+		52AFE4421D8EE46600B2AFEC /* step11-6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step11-6.html"; path = "Tutorial/step11-6.html"; sourceTree = "<group>"; };
+		52AFE4431D8EE46600B2AFEC /* step11-7.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step11-7.html"; path = "Tutorial/step11-7.html"; sourceTree = "<group>"; };
+		52AFE4441D8EE46600B2AFEC /* step11-8.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "step11-8.html"; path = "Tutorial/step11-8.html"; sourceTree = "<group>"; };
+		52AFE4451D8EE46600B2AFEC /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = Tutorial/style.css; sourceTree = "<group>"; };
+		52AFE4461D8EE46600B2AFEC /* support.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = support.html; path = Tutorial/support.html; sourceTree = "<group>"; };
+		52AFE4471D8EE46600B2AFEC /* tips.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = tips.html; path = Tutorial/tips.html; sourceTree = "<group>"; };
+		52AFE4701D8EE66D00B2AFEC /* puzzlebox_logo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = puzzlebox_logo.pdf; path = Tutorial/images2/puzzlebox_logo.pdf; sourceTree = "<group>"; };
+		52AFE4711D8EE66D00B2AFEC /* tutorial-00-introduction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-00-introduction.jpg"; path = "Tutorial/images2/tutorial-00-introduction.jpg"; sourceTree = "<group>"; };
+		52AFE4721D8EE66D00B2AFEC /* tutorial-01-orbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-01-orbit.jpg"; path = "Tutorial/images2/tutorial-01-orbit.jpg"; sourceTree = "<group>"; };
+		52AFE4731D8EE66D00B2AFEC /* tutorial-02-2-brainwave_signals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-02-2-brainwave_signals.jpg"; path = "Tutorial/images2/tutorial-02-2-brainwave_signals.jpg"; sourceTree = "<group>"; };
+		52AFE4741D8EE66D00B2AFEC /* tutorial-02-charging-infrared.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-02-charging-infrared.jpg"; path = "Tutorial/images2/tutorial-02-charging-infrared.jpg"; sourceTree = "<group>"; };
+		52AFE4751D8EE66D00B2AFEC /* tutorial-02-charging-orbit-angle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-02-charging-orbit-angle.jpg"; path = "Tutorial/images2/tutorial-02-charging-orbit-angle.jpg"; sourceTree = "<group>"; };
+		52AFE4761D8EE66D00B2AFEC /* tutorial-02-charging-orbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-02-charging-orbit.jpg"; path = "Tutorial/images2/tutorial-02-charging-orbit.jpg"; sourceTree = "<group>"; };
+		52AFE4771D8EE66D00B2AFEC /* tutorial-02-charging-usb-lit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-02-charging-usb-lit.jpg"; path = "Tutorial/images2/tutorial-02-charging-usb-lit.jpg"; sourceTree = "<group>"; };
+		52AFE4781D8EE66D00B2AFEC /* tutorial-02-charging-usb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-02-charging-usb.jpg"; path = "Tutorial/images2/tutorial-02-charging-usb.jpg"; sourceTree = "<group>"; };
+		52AFE4791D8EE66D00B2AFEC /* tutorial-03-connecting_infrared.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-03-connecting_infrared.jpg"; path = "Tutorial/images2/tutorial-03-connecting_infrared.jpg"; sourceTree = "<group>"; };
+		52AFE47A1D8EE66D00B2AFEC /* tutorial-03-infrared_connected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-03-infrared_connected.jpg"; path = "Tutorial/images2/tutorial-03-infrared_connected.jpg"; sourceTree = "<group>"; };
+		52AFE47B1D8EE66D00B2AFEC /* tutorial-03-volume_max-headphones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-03-volume_max-headphones.jpg"; path = "Tutorial/images2/tutorial-03-volume_max-headphones.jpg"; sourceTree = "<group>"; };
+		52AFE47C1D8EE66D00B2AFEC /* tutorial-03-volume_max.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-03-volume_max.jpg"; path = "Tutorial/images2/tutorial-03-volume_max.jpg"; sourceTree = "<group>"; };
+		52AFE47D1D8EE66D00B2AFEC /* tutorial-04-headset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-04-headset.jpg"; path = "Tutorial/images2/tutorial-04-headset.jpg"; sourceTree = "<group>"; };
+		52AFE47E1D8EE66D00B2AFEC /* tutorial-05-1-bluetooth_pairing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tutorial-05-1-bluetooth_pairing.png"; path = "Tutorial/images2/tutorial-05-1-bluetooth_pairing.png"; sourceTree = "<group>"; };
+		52AFE47F1D8EE66D00B2AFEC /* tutorial-05-2-eeg_connected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-05-2-eeg_connected.jpg"; path = "Tutorial/images2/tutorial-05-2-eeg_connected.jpg"; sourceTree = "<group>"; };
+		52AFE4801D8EE66D00B2AFEC /* tutorial-05-bluetooth_headset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-05-bluetooth_headset.jpg"; path = "Tutorial/images2/tutorial-05-bluetooth_headset.jpg"; sourceTree = "<group>"; };
+		52AFE4811D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-06-1-headset_properly_worn-front.jpg"; path = "Tutorial/images2/tutorial-06-1-headset_properly_worn-front.jpg"; sourceTree = "<group>"; };
+		52AFE4821D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-side.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-06-1-headset_properly_worn-side.jpg"; path = "Tutorial/images2/tutorial-06-1-headset_properly_worn-side.jpg"; sourceTree = "<group>"; };
+		52AFE4831D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-06-1-headset_properly_worn.jpg"; path = "Tutorial/images2/tutorial-06-1-headset_properly_worn.jpg"; sourceTree = "<group>"; };
+		52AFE4841D8EE66D00B2AFEC /* tutorial-06-2-check_headset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-06-2-check_headset.jpg"; path = "Tutorial/images2/tutorial-06-2-check_headset.jpg"; sourceTree = "<group>"; };
+		52AFE4851D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-ear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-06-3-check_connection_points-ear.jpg"; path = "Tutorial/images2/tutorial-06-3-check_connection_points-ear.jpg"; sourceTree = "<group>"; };
+		52AFE4861D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-forehead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-06-3-check_connection_points-forehead.jpg"; path = "Tutorial/images2/tutorial-06-3-check_connection_points-forehead.jpg"; sourceTree = "<group>"; };
+		52AFE4871D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-06-3-check_connection_points.jpg"; path = "Tutorial/images2/tutorial-06-3-check_connection_points.jpg"; sourceTree = "<group>"; };
+		52AFE4881D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "tutorial-07-acquiring_a_clean_signal.gif"; path = "Tutorial/images2/tutorial-07-acquiring_a_clean_signal.gif"; sourceTree = "<group>"; };
+		52AFE4891D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-07-acquiring_a_clean_signal.jpg"; path = "Tutorial/images2/tutorial-07-acquiring_a_clean_signal.jpg"; sourceTree = "<group>"; };
+		52AFE48A1D8EE66D00B2AFEC /* tutorial-07-signal-0_percent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-07-signal-0_percent.jpg"; path = "Tutorial/images2/tutorial-07-signal-0_percent.jpg"; sourceTree = "<group>"; };
+		52AFE48B1D8EE66D00B2AFEC /* tutorial-07-signal-51_percent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-07-signal-51_percent.jpg"; path = "Tutorial/images2/tutorial-07-signal-51_percent.jpg"; sourceTree = "<group>"; };
+		52AFE48C1D8EE66D00B2AFEC /* tutorial-07-signal-100_percent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-07-signal-100_percent.jpg"; path = "Tutorial/images2/tutorial-07-signal-100_percent.jpg"; sourceTree = "<group>"; };
+		52AFE48D1D8EE66D00B2AFEC /* tutorial-08-1-meters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-08-1-meters.jpg"; path = "Tutorial/images2/tutorial-08-1-meters.jpg"; sourceTree = "<group>"; };
+		52AFE48E1D8EE66D00B2AFEC /* tutorial-08-2-attention.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-08-2-attention.jpg"; path = "Tutorial/images2/tutorial-08-2-attention.jpg"; sourceTree = "<group>"; };
+		52AFE48F1D8EE66D00B2AFEC /* tutorial-08-3-meditation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-08-3-meditation.jpg"; path = "Tutorial/images2/tutorial-08-3-meditation.jpg"; sourceTree = "<group>"; };
+		52AFE4901D8EE66D00B2AFEC /* tutorial-08-meters-attention.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "tutorial-08-meters-attention.gif"; path = "Tutorial/images2/tutorial-08-meters-attention.gif"; sourceTree = "<group>"; };
+		52AFE4911D8EE66D00B2AFEC /* tutorial-08-meters-meditation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "tutorial-08-meters-meditation.gif"; path = "Tutorial/images2/tutorial-08-meters-meditation.gif"; sourceTree = "<group>"; };
+		52AFE4921D8EE66D00B2AFEC /* tutorial-08-meters.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "tutorial-08-meters.gif"; path = "Tutorial/images2/tutorial-08-meters.gif"; sourceTree = "<group>"; };
+		52AFE4931D8EE66D00B2AFEC /* tutorial-09-flight-hover.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "tutorial-09-flight-hover.gif"; path = "Tutorial/images2/tutorial-09-flight-hover.gif"; sourceTree = "<group>"; };
+		52AFE4941D8EE66D00B2AFEC /* tutorial-09-flight-transmit-off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-09-flight-transmit-off.jpg"; path = "Tutorial/images2/tutorial-09-flight-transmit-off.jpg"; sourceTree = "<group>"; };
+		52AFE4951D8EE66D00B2AFEC /* tutorial-09-flight-transmit-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-09-flight-transmit-on.jpg"; path = "Tutorial/images2/tutorial-09-flight-transmit-on.jpg"; sourceTree = "<group>"; };
+		52AFE4961D8EE66D00B2AFEC /* tutorial-09-flight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-09-flight.jpg"; path = "Tutorial/images2/tutorial-09-flight.jpg"; sourceTree = "<group>"; };
+		52AFE4971D8EE66D00B2AFEC /* tutorial-10-scoring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-10-scoring.jpg"; path = "Tutorial/images2/tutorial-10-scoring.jpg"; sourceTree = "<group>"; };
+		52AFE4981D8EE66D00B2AFEC /* tutorial-11-steering-presets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-11-steering-presets.jpg"; path = "Tutorial/images2/tutorial-11-steering-presets.jpg"; sourceTree = "<group>"; };
+		52AFE4991D8EE66D00B2AFEC /* tutorial-11-steering-throttle_only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-11-steering-throttle_only.jpg"; path = "Tutorial/images2/tutorial-11-steering-throttle_only.jpg"; sourceTree = "<group>"; };
+		52AFE49A1D8EE66D00B2AFEC /* tutorial-11-steering-throttle_yaw_pitch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-11-steering-throttle_yaw_pitch.jpg"; path = "Tutorial/images2/tutorial-11-steering-throttle_yaw_pitch.jpg"; sourceTree = "<group>"; };
+		52AFE49B1D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-11-steering-tilt_sensor_off.jpg"; path = "Tutorial/images2/tutorial-11-steering-tilt_sensor_off.jpg"; sourceTree = "<group>"; };
+		52AFE49C1D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tutorial-11-steering-tilt_sensor.jpg"; path = "Tutorial/images2/tutorial-11-steering-tilt_sensor.jpg"; sourceTree = "<group>"; };
+		52AFE49D1D8EE66D00B2AFEC /* welcome-icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "welcome-icons.png"; path = "Tutorial/images2/welcome-icons.png"; sourceTree = "<group>"; };
+		52AFE4CD1D8EE7C500B2AFEC /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Apache License.txt"; path = "Fonts/Droid-Sans/Apache License.txt"; sourceTree = "<group>"; };
+		52AFE4CE1D8EE7C500B2AFEC /* DroidSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DroidSans-Bold.ttf"; path = "Fonts/Droid-Sans/DroidSans-Bold.ttf"; sourceTree = "<group>"; };
+		52AFE4CF1D8EE7C500B2AFEC /* DroidSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DroidSans.ttf; path = "Fonts/Droid-Sans/DroidSans.ttf"; sourceTree = "<group>"; };
+		52AFE4D41D8EEB2500B2AFEC /* SupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		52B95B891D8DD7C400215118 /* sample_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_data.txt; sourceTree = "<group>"; };
+		52C069011D94985400B2802F /* HomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		52D59AD01D958EA20046DA2E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		52D59AD21D98FC1D0046DA2E /* Orbit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbit.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525C4A101D8D6C6E005C15EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D59AD11D958EA20046DA2E /* CoreMotion.framework in Frameworks */,
+				520C740F1D916F1D00A09634 /* ExternalAccessory.framework in Frameworks */,
+				525C4A831D8DCAEA005C15EA /* CoreGraphics.framework in Frameworks */,
+				525C4A811D8DCAE0005C15EA /* UIKit.framework in Frameworks */,
+				525C4A7F1D8DCAD1005C15EA /* Foundation.framework in Frameworks */,
+				520C74281D9175C900A09634 /* libBleSDK.a in Frameworks */,
+				525C4A4D1D8D6D58005C15EA /* StreamSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525C4A261D8D6C6E005C15EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525C4A311D8D6C6E005C15EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520C74211D91730900A09634 /* MWMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				520C74221D9175C300A09634 /* MWMDevice.h */,
+				520C74231D9175C300A09634 /* MWMDeviceDelegate.h */,
+				520C74241D9175C300A09634 /* TGBleManager.h */,
+				520C74251D9175C300A09634 /* TGBleManagerDelegate.h */,
+				520C74261D9175C300A09634 /* TGEnumInfo.h */,
+			);
+			name = MWMSDK;
+			sourceTree = "<group>";
+		};
+		520C742F1D91BBB800A09634 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				520C742B1D91B04100A09634 /* AdvancedViewController.swift */,
+				525C4A181D8D6C6E005C15EA /* FirstViewController.swift */,
+				525C4A771D8D6FD7005C15EA /* FlightViewController.swift */,
+				52AFE4D41D8EEB2500B2AFEC /* SupportViewController.swift */,
+				52AFE3D01D8EDF5F00B2AFEC /* TutorialViewController.swift */,
+				52C069011D94985400B2802F /* HomepageViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		525C4A0A1D8D6C6E005C15EA = {
+			isa = PBXGroup;
+			children = (
+				525C4A151D8D6C6E005C15EA /* Orbit */,
+				525C4A2C1D8D6C6E005C15EA /* OrbitTests */,
+				525C4A371D8D6C6E005C15EA /* OrbitUITests */,
+				525C4A141D8D6C6E005C15EA /* Products */,
+				525C4A461D8D6D42005C15EA /* Libaries */,
+				525C4A7D1D8DCAD1005C15EA /* Frameworks */,
+			);
+			indentWidth = 3;
+			sourceTree = "<group>";
+			tabWidth = 3;
+			usesTabs = 1;
+		};
+		525C4A141D8D6C6E005C15EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525C4A131D8D6C6E005C15EA /* Orbit.app */,
+				525C4A291D8D6C6E005C15EA /* OrbitTests.xctest */,
+				525C4A341D8D6C6E005C15EA /* OrbitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525C4A151D8D6C6E005C15EA /* Orbit */ = {
+			isa = PBXGroup;
+			children = (
+				52D59AD21D98FC1D0046DA2E /* Orbit.entitlements */,
+				525C4A161D8D6C6E005C15EA /* AppDelegate.swift */,
+				520C73F71D90B94900A09634 /* AudioGenerator.h */,
+				520C73F81D90B94900A09634 /* AudioGenerator.m */,
+				520C73FA1D90B99900A09634 /* ControlSignalManager.swift */,
+				520C742D1D91B20200A09634 /* SynapseManager.swift */,
+				520C742F1D91BBB800A09634 /* View Controllers */,
+				525C4A211D8D6C6E005C15EA /* LaunchScreen.storyboard */,
+				525C4A1C1D8D6C6E005C15EA /* Main.storyboard */,
+				525C4A4E1D8D6E42005C15EA /* Images */,
+				52AFE4CC1D8EE7AB00B2AFEC /* Fonts */,
+				52AFE3D21D8EE3EB00B2AFEC /* Tutorial */,
+				525C4A1F1D8D6C6E005C15EA /* Assets.xcassets */,
+				525C4A861D8DCC9A005C15EA /* Supporting Files */,
+			);
+			path = Orbit;
+			sourceTree = "<group>";
+		};
+		525C4A2C1D8D6C6E005C15EA /* OrbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				525C4A2D1D8D6C6E005C15EA /* OrbitTests.swift */,
+				525C4A2F1D8D6C6E005C15EA /* Info.plist */,
+			);
+			path = OrbitTests;
+			sourceTree = "<group>";
+		};
+		525C4A371D8D6C6E005C15EA /* OrbitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				525C4A381D8D6C6E005C15EA /* OrbitUITests.swift */,
+				525C4A3A1D8D6C6E005C15EA /* Info.plist */,
+			);
+			path = OrbitUITests;
+			sourceTree = "<group>";
+		};
+		525C4A461D8D6D42005C15EA /* Libaries */ = {
+			isa = PBXGroup;
+			children = (
+				520C74211D91730900A09634 /* MWMSDK */,
+				525C4A471D8D6D49005C15EA /* StreamSDK */,
+			);
+			name = Libaries;
+			path = Orbit;
+			sourceTree = "<group>";
+		};
+		525C4A471D8D6D49005C15EA /* StreamSDK */ = {
+			isa = PBXGroup;
+			children = (
+				525C4A481D8D6D58005C15EA /* StreamSDK.a */,
+				525C4A491D8D6D58005C15EA /* TGSEEGPower.h */,
+				525C4A4A1D8D6D58005C15EA /* TGStream.h */,
+				525C4A4B1D8D6D58005C15EA /* TGStreamDelegate.h */,
+				525C4A4C1D8D6D58005C15EA /* TGStreamEnum.h */,
+			);
+			indentWidth = 3;
+			name = StreamSDK;
+			sourceTree = "<group>";
+			tabWidth = 3;
+			usesTabs = 1;
+		};
+		525C4A4E1D8D6E42005C15EA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				525C4A4F1D8D6E56005C15EA /* status_0.png */,
+				525C4A501D8D6E56005C15EA /* status_0@2x.png */,
+				525C4A511D8D6E56005C15EA /* status_1.png */,
+				525C4A521D8D6E56005C15EA /* status_1@2x.png */,
+				525C4A531D8D6E56005C15EA /* status_2.png */,
+				525C4A541D8D6E56005C15EA /* status_2@2x.png */,
+				525C4A551D8D6E56005C15EA /* status_3.png */,
+				525C4A561D8D6E56005C15EA /* status_3@2x.png */,
+				525C4A571D8D6E56005C15EA /* status_4.png */,
+				525C4A581D8D6E56005C15EA /* status_4@2x.png */,
+				525C4A591D8D6E56005C15EA /* tab_advanced-30x30.png */,
+				525C4A5A1D8D6E56005C15EA /* tab_advanced-60x60.png */,
+				525C4A5B1D8D6E56005C15EA /* tab_flight-30x30.png */,
+				525C4A5C1D8D6E56005C15EA /* tab_flight-60x60.png */,
+				525C4A5D1D8D6E56005C15EA /* tab_puzzlebox-30x30.png */,
+				525C4A5E1D8D6E56005C15EA /* tab_puzzlebox-60x60.png */,
+				525C4A5F1D8D6E56005C15EA /* tab_support-30x30.png */,
+				525C4A601D8D6E56005C15EA /* tab_support-60x60.png */,
+				525C4A611D8D6E56005C15EA /* tab_welcome-30x30.png */,
+				525C4A621D8D6E56005C15EA /* tab_welcome-60x60.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		525C4A7D1D8DCAD1005C15EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D59AD01D958EA20046DA2E /* CoreMotion.framework */,
+				520C74271D9175C900A09634 /* libBleSDK.a */,
+				520C740E1D916F1D00A09634 /* ExternalAccessory.framework */,
+				525C4A821D8DCAEA005C15EA /* CoreGraphics.framework */,
+				525C4A801D8DCAE0005C15EA /* UIKit.framework */,
+				525C4A7E1D8DCAD1005C15EA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		525C4A861D8DCC9A005C15EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				525C4A241D8D6C6E005C15EA /* Info.plist */,
+				525C4A791D8D76D9005C15EA /* Orbit-Bridging-Header.h */,
+				52B95B891D8DD7C400215118 /* sample_data.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52AFE3D21D8EE3EB00B2AFEC /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				52AFE46F1D8EE64500B2AFEC /* images */,
+				52AFE4211D8EE46600B2AFEC /* contents.html */,
+				52AFE4221D8EE46600B2AFEC /* faq.html */,
+				52AFE4231D8EE46600B2AFEC /* frame.html */,
+				52AFE4251D8EE46600B2AFEC /* index.html */,
+				52AFE4261D8EE46600B2AFEC /* step01-1.html */,
+				52AFE4271D8EE46600B2AFEC /* step01-2.html */,
+				52AFE4281D8EE46600B2AFEC /* step02-1.html */,
+				52AFE4291D8EE46600B2AFEC /* step02-2.html */,
+				52AFE42A1D8EE46600B2AFEC /* step03.html */,
+				52AFE42B1D8EE46600B2AFEC /* step04-1.html */,
+				52AFE42C1D8EE46600B2AFEC /* step04-2.html */,
+				52AFE42D1D8EE46600B2AFEC /* step05-1.html */,
+				52AFE42E1D8EE46600B2AFEC /* step05-2.html */,
+				52AFE42F1D8EE46600B2AFEC /* step05-3.html */,
+				52AFE4301D8EE46600B2AFEC /* step05-4.html */,
+				52AFE4311D8EE46600B2AFEC /* step06-1.html */,
+				52AFE4321D8EE46600B2AFEC /* step06-2.html */,
+				52AFE4331D8EE46600B2AFEC /* step06-3.html */,
+				52AFE4341D8EE46600B2AFEC /* step07-1.html */,
+				52AFE4351D8EE46600B2AFEC /* step07-2.html */,
+				52AFE4361D8EE46600B2AFEC /* step08-1.html */,
+				52AFE4371D8EE46600B2AFEC /* step08-2.html */,
+				52AFE4381D8EE46600B2AFEC /* step08-3.html */,
+				52AFE4391D8EE46600B2AFEC /* step08-4.html */,
+				52AFE43A1D8EE46600B2AFEC /* step08-5.html */,
+				52AFE43B1D8EE46600B2AFEC /* step09.html */,
+				52AFE43C1D8EE46600B2AFEC /* step10.html */,
+				52AFE43D1D8EE46600B2AFEC /* step11-1.html */,
+				52AFE43E1D8EE46600B2AFEC /* step11-2.html */,
+				52AFE43F1D8EE46600B2AFEC /* step11-3.html */,
+				52AFE4401D8EE46600B2AFEC /* step11-4.html */,
+				52AFE4411D8EE46600B2AFEC /* step11-5.html */,
+				52AFE4421D8EE46600B2AFEC /* step11-6.html */,
+				52AFE4431D8EE46600B2AFEC /* step11-7.html */,
+				52AFE4441D8EE46600B2AFEC /* step11-8.html */,
+				52AFE4451D8EE46600B2AFEC /* style.css */,
+				52AFE4461D8EE46600B2AFEC /* support.html */,
+				52AFE4471D8EE46600B2AFEC /* tips.html */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		52AFE46F1D8EE64500B2AFEC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				52AFE4701D8EE66D00B2AFEC /* puzzlebox_logo.pdf */,
+				52AFE4711D8EE66D00B2AFEC /* tutorial-00-introduction.jpg */,
+				52AFE4721D8EE66D00B2AFEC /* tutorial-01-orbit.jpg */,
+				52AFE4731D8EE66D00B2AFEC /* tutorial-02-2-brainwave_signals.jpg */,
+				52AFE4741D8EE66D00B2AFEC /* tutorial-02-charging-infrared.jpg */,
+				52AFE4751D8EE66D00B2AFEC /* tutorial-02-charging-orbit-angle.jpg */,
+				52AFE4761D8EE66D00B2AFEC /* tutorial-02-charging-orbit.jpg */,
+				52AFE4771D8EE66D00B2AFEC /* tutorial-02-charging-usb-lit.jpg */,
+				52AFE4781D8EE66D00B2AFEC /* tutorial-02-charging-usb.jpg */,
+				52AFE4791D8EE66D00B2AFEC /* tutorial-03-connecting_infrared.jpg */,
+				52AFE47A1D8EE66D00B2AFEC /* tutorial-03-infrared_connected.jpg */,
+				52AFE47B1D8EE66D00B2AFEC /* tutorial-03-volume_max-headphones.jpg */,
+				52AFE47C1D8EE66D00B2AFEC /* tutorial-03-volume_max.jpg */,
+				52AFE47D1D8EE66D00B2AFEC /* tutorial-04-headset.jpg */,
+				52AFE47E1D8EE66D00B2AFEC /* tutorial-05-1-bluetooth_pairing.png */,
+				52AFE47F1D8EE66D00B2AFEC /* tutorial-05-2-eeg_connected.jpg */,
+				52AFE4801D8EE66D00B2AFEC /* tutorial-05-bluetooth_headset.jpg */,
+				52AFE4811D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-front.jpg */,
+				52AFE4821D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-side.jpg */,
+				52AFE4831D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn.jpg */,
+				52AFE4841D8EE66D00B2AFEC /* tutorial-06-2-check_headset.jpg */,
+				52AFE4851D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-ear.jpg */,
+				52AFE4861D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-forehead.jpg */,
+				52AFE4871D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points.jpg */,
+				52AFE4881D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.gif */,
+				52AFE4891D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.jpg */,
+				52AFE48A1D8EE66D00B2AFEC /* tutorial-07-signal-0_percent.jpg */,
+				52AFE48B1D8EE66D00B2AFEC /* tutorial-07-signal-51_percent.jpg */,
+				52AFE48C1D8EE66D00B2AFEC /* tutorial-07-signal-100_percent.jpg */,
+				52AFE48D1D8EE66D00B2AFEC /* tutorial-08-1-meters.jpg */,
+				52AFE48E1D8EE66D00B2AFEC /* tutorial-08-2-attention.jpg */,
+				52AFE48F1D8EE66D00B2AFEC /* tutorial-08-3-meditation.jpg */,
+				52AFE4901D8EE66D00B2AFEC /* tutorial-08-meters-attention.gif */,
+				52AFE4911D8EE66D00B2AFEC /* tutorial-08-meters-meditation.gif */,
+				52AFE4921D8EE66D00B2AFEC /* tutorial-08-meters.gif */,
+				52AFE4931D8EE66D00B2AFEC /* tutorial-09-flight-hover.gif */,
+				52AFE4941D8EE66D00B2AFEC /* tutorial-09-flight-transmit-off.jpg */,
+				52AFE4951D8EE66D00B2AFEC /* tutorial-09-flight-transmit-on.jpg */,
+				52AFE4961D8EE66D00B2AFEC /* tutorial-09-flight.jpg */,
+				52AFE4971D8EE66D00B2AFEC /* tutorial-10-scoring.jpg */,
+				52AFE4981D8EE66D00B2AFEC /* tutorial-11-steering-presets.jpg */,
+				52AFE4991D8EE66D00B2AFEC /* tutorial-11-steering-throttle_only.jpg */,
+				52AFE49A1D8EE66D00B2AFEC /* tutorial-11-steering-throttle_yaw_pitch.jpg */,
+				52AFE49B1D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor_off.jpg */,
+				52AFE49C1D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor.jpg */,
+				52AFE49D1D8EE66D00B2AFEC /* welcome-icons.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		52AFE4CC1D8EE7AB00B2AFEC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52AFE4D31D8EE7CC00B2AFEC /* Droid-Sans */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		52AFE4D31D8EE7CC00B2AFEC /* Droid-Sans */ = {
+			isa = PBXGroup;
+			children = (
+				52AFE4CD1D8EE7C500B2AFEC /* Apache License.txt */,
+				52AFE4CE1D8EE7C500B2AFEC /* DroidSans-Bold.ttf */,
+				52AFE4CF1D8EE7C500B2AFEC /* DroidSans.ttf */,
+			);
+			name = "Droid-Sans";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525C4A121D8D6C6E005C15EA /* Orbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525C4A3D1D8D6C6E005C15EA /* Build configuration list for PBXNativeTarget "Orbit" */;
+			buildPhases = (
+				525C4A0F1D8D6C6E005C15EA /* Sources */,
+				525C4A101D8D6C6E005C15EA /* Frameworks */,
+				525C4A111D8D6C6E005C15EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orbit;
+			productName = Orbit;
+			productReference = 525C4A131D8D6C6E005C15EA /* Orbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525C4A281D8D6C6E005C15EA /* OrbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525C4A401D8D6C6E005C15EA /* Build configuration list for PBXNativeTarget "OrbitTests" */;
+			buildPhases = (
+				525C4A251D8D6C6E005C15EA /* Sources */,
+				525C4A261D8D6C6E005C15EA /* Frameworks */,
+				525C4A271D8D6C6E005C15EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525C4A2B1D8D6C6E005C15EA /* PBXTargetDependency */,
+			);
+			name = OrbitTests;
+			productName = OrbitTests;
+			productReference = 525C4A291D8D6C6E005C15EA /* OrbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525C4A331D8D6C6E005C15EA /* OrbitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525C4A431D8D6C6E005C15EA /* Build configuration list for PBXNativeTarget "OrbitUITests" */;
+			buildPhases = (
+				525C4A301D8D6C6E005C15EA /* Sources */,
+				525C4A311D8D6C6E005C15EA /* Frameworks */,
+				525C4A321D8D6C6E005C15EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525C4A361D8D6C6E005C15EA /* PBXTargetDependency */,
+			);
+			name = OrbitUITests;
+			productName = OrbitUITests;
+			productReference = 525C4A341D8D6C6E005C15EA /* OrbitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525C4A0B1D8D6C6E005C15EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Puzzlebox;
+				TargetAttributes = {
+					525C4A121D8D6C6E005C15EA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RS8D6N69Z2;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					525C4A281D8D6C6E005C15EA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RS8D6N69Z2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525C4A121D8D6C6E005C15EA;
+					};
+					525C4A331D8D6C6E005C15EA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RS8D6N69Z2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525C4A121D8D6C6E005C15EA;
+					};
+				};
+			};
+			buildConfigurationList = 525C4A0E1D8D6C6E005C15EA /* Build configuration list for PBXProject "Orbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525C4A0A1D8D6C6E005C15EA;
+			productRefGroup = 525C4A141D8D6C6E005C15EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525C4A121D8D6C6E005C15EA /* Orbit */,
+				525C4A281D8D6C6E005C15EA /* OrbitTests */,
+				525C4A331D8D6C6E005C15EA /* OrbitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525C4A111D8D6C6E005C15EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AFE4C61D8EE66D00B2AFEC /* tutorial-11-steering-presets.jpg in Resources */,
+				52AFE4C91D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor_off.jpg in Resources */,
+				525C4A6C1D8D6E56005C15EA /* status_4@2x.png in Resources */,
+				52AFE4C21D8EE66D00B2AFEC /* tutorial-09-flight-transmit-off.jpg in Resources */,
+				52AFE4511D8EE46600B2AFEC /* step03.html in Resources */,
+				52AFE4571D8EE46600B2AFEC /* step05-4.html in Resources */,
+				52AFE4B01D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-side.jpg in Resources */,
+				525C4A661D8D6E56005C15EA /* status_1@2x.png in Resources */,
+				525C4A6D1D8D6E56005C15EA /* tab_advanced-30x30.png in Resources */,
+				52AFE4641D8EE46600B2AFEC /* step11-1.html in Resources */,
+				525C4A231D8D6C6E005C15EA /* LaunchScreen.storyboard in Resources */,
+				52AFE4671D8EE46600B2AFEC /* step11-4.html in Resources */,
+				525C4A201D8D6C6E005C15EA /* Assets.xcassets in Resources */,
+				52AFE4CB1D8EE66D00B2AFEC /* welcome-icons.png in Resources */,
+				52AFE4631D8EE46600B2AFEC /* step10.html in Resources */,
+				52AFE4551D8EE46600B2AFEC /* step05-2.html in Resources */,
+				52AFE4C81D8EE66D00B2AFEC /* tutorial-11-steering-throttle_yaw_pitch.jpg in Resources */,
+				52AFE4D21D8EE7C500B2AFEC /* DroidSans.ttf in Resources */,
+				525C4A631D8D6E56005C15EA /* status_0.png in Resources */,
+				52AFE4521D8EE46600B2AFEC /* step04-1.html in Resources */,
+				52AFE4A61D8EE66D00B2AFEC /* tutorial-02-charging-usb.jpg in Resources */,
+				52AFE4CA1D8EE66D00B2AFEC /* tutorial-11-steering-tilt_sensor.jpg in Resources */,
+				52AFE4BD1D8EE66D00B2AFEC /* tutorial-08-3-meditation.jpg in Resources */,
+				52AFE4A81D8EE66D00B2AFEC /* tutorial-03-infrared_connected.jpg in Resources */,
+				525C4A711D8D6E56005C15EA /* tab_puzzlebox-30x30.png in Resources */,
+				52AFE4C11D8EE66D00B2AFEC /* tutorial-09-flight-hover.gif in Resources */,
+				52AFE4BF1D8EE66D00B2AFEC /* tutorial-08-meters-meditation.gif in Resources */,
+				52AFE4661D8EE46600B2AFEC /* step11-3.html in Resources */,
+				52AFE46A1D8EE46600B2AFEC /* step11-7.html in Resources */,
+				52AFE4C31D8EE66D00B2AFEC /* tutorial-09-flight-transmit-on.jpg in Resources */,
+				52AFE4BE1D8EE66D00B2AFEC /* tutorial-08-meters-attention.gif in Resources */,
+				52AFE4491D8EE46600B2AFEC /* faq.html in Resources */,
+				525C4A761D8D6E56005C15EA /* tab_welcome-60x60.png in Resources */,
+				52AFE4A11D8EE66D00B2AFEC /* tutorial-02-2-brainwave_signals.jpg in Resources */,
+				52AFE45B1D8EE46600B2AFEC /* step07-1.html in Resources */,
+				52AFE4AB1D8EE66D00B2AFEC /* tutorial-04-headset.jpg in Resources */,
+				52AFE4D11D8EE7C500B2AFEC /* DroidSans-Bold.ttf in Resources */,
+				52AFE4601D8EE46600B2AFEC /* step08-4.html in Resources */,
+				52AFE4AC1D8EE66D00B2AFEC /* tutorial-05-1-bluetooth_pairing.png in Resources */,
+				52AFE44D1D8EE46600B2AFEC /* step01-1.html in Resources */,
+				52B95B8A1D8DD7C400215118 /* sample_data.txt in Resources */,
+				52AFE46D1D8EE46600B2AFEC /* support.html in Resources */,
+				52AFE4591D8EE46600B2AFEC /* step06-2.html in Resources */,
+				525C4A6F1D8D6E56005C15EA /* tab_flight-30x30.png in Resources */,
+				52AFE44F1D8EE46600B2AFEC /* step02-1.html in Resources */,
+				525C4A741D8D6E56005C15EA /* tab_support-60x60.png in Resources */,
+				52AFE49F1D8EE66D00B2AFEC /* tutorial-00-introduction.jpg in Resources */,
+				52AFE45F1D8EE46600B2AFEC /* step08-3.html in Resources */,
+				52AFE4651D8EE46600B2AFEC /* step11-2.html in Resources */,
+				52AFE4C51D8EE66D00B2AFEC /* tutorial-10-scoring.jpg in Resources */,
+				52AFE4AF1D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn-front.jpg in Resources */,
+				52AFE4A21D8EE66D00B2AFEC /* tutorial-02-charging-infrared.jpg in Resources */,
+				52AFE45C1D8EE46600B2AFEC /* step07-2.html in Resources */,
+				52AFE4B11D8EE66D00B2AFEC /* tutorial-06-1-headset_properly_worn.jpg in Resources */,
+				525C4A701D8D6E56005C15EA /* tab_flight-60x60.png in Resources */,
+				525C4A671D8D6E56005C15EA /* status_2.png in Resources */,
+				52AFE46C1D8EE46600B2AFEC /* style.css in Resources */,
+				52AFE4A71D8EE66D00B2AFEC /* tutorial-03-connecting_infrared.jpg in Resources */,
+				52AFE4531D8EE46600B2AFEC /* step04-2.html in Resources */,
+				52AFE46E1D8EE46600B2AFEC /* tips.html in Resources */,
+				52AFE4A51D8EE66D00B2AFEC /* tutorial-02-charging-usb-lit.jpg in Resources */,
+				525C4A691D8D6E56005C15EA /* status_3.png in Resources */,
+				52AFE4B21D8EE66D00B2AFEC /* tutorial-06-2-check_headset.jpg in Resources */,
+				52AFE4AD1D8EE66D00B2AFEC /* tutorial-05-2-eeg_connected.jpg in Resources */,
+				52AFE44A1D8EE46600B2AFEC /* frame.html in Resources */,
+				52AFE4621D8EE46600B2AFEC /* step09.html in Resources */,
+				52AFE4BC1D8EE66D00B2AFEC /* tutorial-08-2-attention.jpg in Resources */,
+				52AFE4B91D8EE66D00B2AFEC /* tutorial-07-signal-51_percent.jpg in Resources */,
+				52AFE4AE1D8EE66D00B2AFEC /* tutorial-05-bluetooth_headset.jpg in Resources */,
+				525C4A6B1D8D6E56005C15EA /* status_4.png in Resources */,
+				52AFE4611D8EE46600B2AFEC /* step08-5.html in Resources */,
+				525C4A651D8D6E56005C15EA /* status_1.png in Resources */,
+				52AFE4C71D8EE66D00B2AFEC /* tutorial-11-steering-throttle_only.jpg in Resources */,
+				525C4A681D8D6E56005C15EA /* status_2@2x.png in Resources */,
+				525C4A751D8D6E56005C15EA /* tab_welcome-30x30.png in Resources */,
+				52AFE4BB1D8EE66D00B2AFEC /* tutorial-08-1-meters.jpg in Resources */,
+				52AFE4A91D8EE66D00B2AFEC /* tutorial-03-volume_max-headphones.jpg in Resources */,
+				525C4A1E1D8D6C6E005C15EA /* Main.storyboard in Resources */,
+				52AFE45D1D8EE46600B2AFEC /* step08-1.html in Resources */,
+				52AFE4BA1D8EE66D00B2AFEC /* tutorial-07-signal-100_percent.jpg in Resources */,
+				52AFE46B1D8EE46600B2AFEC /* step11-8.html in Resources */,
+				525C4A6A1D8D6E56005C15EA /* status_3@2x.png in Resources */,
+				52AFE4B81D8EE66D00B2AFEC /* tutorial-07-signal-0_percent.jpg in Resources */,
+				52AFE4B41D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-forehead.jpg in Resources */,
+				52AFE45E1D8EE46600B2AFEC /* step08-2.html in Resources */,
+				52AFE4A31D8EE66D00B2AFEC /* tutorial-02-charging-orbit-angle.jpg in Resources */,
+				52AFE44C1D8EE46600B2AFEC /* index.html in Resources */,
+				52AFE4541D8EE46600B2AFEC /* step05-1.html in Resources */,
+				52AFE4AA1D8EE66D00B2AFEC /* tutorial-03-volume_max.jpg in Resources */,
+				52AFE4561D8EE46600B2AFEC /* step05-3.html in Resources */,
+				52AFE4691D8EE46600B2AFEC /* step11-6.html in Resources */,
+				52AFE4B31D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points-ear.jpg in Resources */,
+				52AFE4B61D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.gif in Resources */,
+				52AFE49E1D8EE66D00B2AFEC /* puzzlebox_logo.pdf in Resources */,
+				525C4A721D8D6E56005C15EA /* tab_puzzlebox-60x60.png in Resources */,
+				52AFE4D01D8EE7C500B2AFEC /* Apache License.txt in Resources */,
+				525C4A641D8D6E56005C15EA /* status_0@2x.png in Resources */,
+				52AFE44E1D8EE46600B2AFEC /* step01-2.html in Resources */,
+				52AFE4581D8EE46600B2AFEC /* step06-1.html in Resources */,
+				52AFE4C41D8EE66D00B2AFEC /* tutorial-09-flight.jpg in Resources */,
+				52AFE4C01D8EE66D00B2AFEC /* tutorial-08-meters.gif in Resources */,
+				52AFE4A01D8EE66D00B2AFEC /* tutorial-01-orbit.jpg in Resources */,
+				52AFE4501D8EE46600B2AFEC /* step02-2.html in Resources */,
+				52AFE45A1D8EE46600B2AFEC /* step06-3.html in Resources */,
+				52AFE4481D8EE46600B2AFEC /* contents.html in Resources */,
+				525C4A731D8D6E56005C15EA /* tab_support-30x30.png in Resources */,
+				52AFE4A41D8EE66D00B2AFEC /* tutorial-02-charging-orbit.jpg in Resources */,
+				52AFE4B51D8EE66D00B2AFEC /* tutorial-06-3-check_connection_points.jpg in Resources */,
+				52AFE4681D8EE46600B2AFEC /* step11-5.html in Resources */,
+				52AFE4B71D8EE66D00B2AFEC /* tutorial-07-acquiring_a_clean_signal.jpg in Resources */,
+				525C4A6E1D8D6E56005C15EA /* tab_advanced-60x60.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525C4A271D8D6C6E005C15EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525C4A321D8D6C6E005C15EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525C4A0F1D8D6C6E005C15EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525C4A171D8D6C6E005C15EA /* AppDelegate.swift in Sources */,
+				52AFE3D11D8EDF5F00B2AFEC /* TutorialViewController.swift in Sources */,
+				520C742C1D91B04100A09634 /* AdvancedViewController.swift in Sources */,
+				525C4A781D8D6FD7005C15EA /* FlightViewController.swift in Sources */,
+				520C73F91D90B94900A09634 /* AudioGenerator.m in Sources */,
+				525C4A191D8D6C6E005C15EA /* FirstViewController.swift in Sources */,
+				52C069021D94985400B2802F /* HomepageViewController.swift in Sources */,
+				520C742E1D91B20200A09634 /* SynapseManager.swift in Sources */,
+				520C73FB1D90B99900A09634 /* ControlSignalManager.swift in Sources */,
+				52AFE4D51D8EEB2500B2AFEC /* SupportViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525C4A251D8D6C6E005C15EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525C4A2E1D8D6C6E005C15EA /* OrbitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525C4A301D8D6C6E005C15EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525C4A391D8D6C6E005C15EA /* OrbitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525C4A2B1D8D6C6E005C15EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525C4A121D8D6C6E005C15EA /* Orbit */;
+			targetProxy = 525C4A2A1D8D6C6E005C15EA /* PBXContainerItemProxy */;
+		};
+		525C4A361D8D6C6E005C15EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525C4A121D8D6C6E005C15EA /* Orbit */;
+			targetProxy = 525C4A351D8D6C6E005C15EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525C4A1C1D8D6C6E005C15EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525C4A1D1D8D6C6E005C15EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525C4A211D8D6C6E005C15EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525C4A221D8D6C6E005C15EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525C4A3B1D8D6C6E005C15EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525C4A3C1D8D6C6E005C15EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525C4A3E1D8D6C6E005C15EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Orbit/Orbit.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RS8D6N69Z2;
+				INFOPLIST_FILE = Orbit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/StreamSDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWMSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Puzzlebox.Orbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Orbit/Orbit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		525C4A3F1D8D6C6E005C15EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Orbit/Orbit.entitlements;
+				DEVELOPMENT_TEAM = RS8D6N69Z2;
+				INFOPLIST_FILE = Orbit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/StreamSDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
+					"$(PROJECT_DIR)/Libraries/MWMSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Puzzlebox.Orbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Orbit/Orbit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		525C4A411D8D6C6E005C15EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RS8D6N69Z2;
+				INFOPLIST_FILE = OrbitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.puzzlebox.OrbitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbit.app/Orbit";
+			};
+			name = Debug;
+		};
+		525C4A421D8D6C6E005C15EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RS8D6N69Z2;
+				INFOPLIST_FILE = OrbitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.puzzlebox.OrbitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbit.app/Orbit";
+			};
+			name = Release;
+		};
+		525C4A441D8D6C6E005C15EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RS8D6N69Z2;
+				INFOPLIST_FILE = OrbitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.puzzlebox.OrbitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Orbit;
+			};
+			name = Debug;
+		};
+		525C4A451D8D6C6E005C15EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RS8D6N69Z2;
+				INFOPLIST_FILE = OrbitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.puzzlebox.OrbitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Orbit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525C4A0E1D8D6C6E005C15EA /* Build configuration list for PBXProject "Orbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525C4A3B1D8D6C6E005C15EA /* Debug */,
+				525C4A3C1D8D6C6E005C15EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525C4A3D1D8D6C6E005C15EA /* Build configuration list for PBXNativeTarget "Orbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525C4A3E1D8D6C6E005C15EA /* Debug */,
+				525C4A3F1D8D6C6E005C15EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525C4A401D8D6C6E005C15EA /* Build configuration list for PBXNativeTarget "OrbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525C4A411D8D6C6E005C15EA /* Debug */,
+				525C4A421D8D6C6E005C15EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525C4A431D8D6C6E005C15EA /* Build configuration list for PBXNativeTarget "OrbitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525C4A441D8D6C6E005C15EA /* Debug */,
+				525C4A451D8D6C6E005C15EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525C4A0B1D8D6C6E005C15EA /* Project object */;
+}
