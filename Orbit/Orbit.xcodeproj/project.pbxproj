@@ -134,7 +134,6 @@
 		52AFE4D11D8EE7C500B2AFEC /* DroidSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4CE1D8EE7C500B2AFEC /* DroidSans-Bold.ttf */; };
 		52AFE4D21D8EE7C500B2AFEC /* DroidSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52AFE4CF1D8EE7C500B2AFEC /* DroidSans.ttf */; };
 		52AFE4D51D8EEB2500B2AFEC /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AFE4D41D8EEB2500B2AFEC /* SupportViewController.swift */; };
-		52B95B8A1D8DD7C400215118 /* sample_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52B95B891D8DD7C400215118 /* sample_data.txt */; };
 		52C069021D94985400B2802F /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C069011D94985400B2802F /* HomepageViewController.swift */; };
 		52D59AD11D958EA20046DA2E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D59AD01D958EA20046DA2E /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
@@ -301,7 +300,6 @@
 		52AFE4CE1D8EE7C500B2AFEC /* DroidSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DroidSans-Bold.ttf"; path = "Fonts/Droid-Sans/DroidSans-Bold.ttf"; sourceTree = "<group>"; };
 		52AFE4CF1D8EE7C500B2AFEC /* DroidSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DroidSans.ttf; path = "Fonts/Droid-Sans/DroidSans.ttf"; sourceTree = "<group>"; };
 		52AFE4D41D8EEB2500B2AFEC /* SupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
-		52B95B891D8DD7C400215118 /* sample_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_data.txt; sourceTree = "<group>"; };
 		52C069011D94985400B2802F /* HomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		52D59AD01D958EA20046DA2E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		52D59AD21D98FC1D0046DA2E /* Orbit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbit.entitlements; sourceTree = "<group>"; };
@@ -498,7 +496,6 @@
 			children = (
 				525C4A241D8D6C6E005C15EA /* Info.plist */,
 				525C4A791D8D76D9005C15EA /* Orbit-Bridging-Header.h */,
-				52B95B891D8DD7C400215118 /* sample_data.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -771,7 +768,6 @@
 				52AFE4601D8EE46600B2AFEC /* step08-4.html in Resources */,
 				52AFE4AC1D8EE66D00B2AFEC /* tutorial-05-1-bluetooth_pairing.png in Resources */,
 				52AFE44D1D8EE46600B2AFEC /* step01-1.html in Resources */,
-				52B95B8A1D8DD7C400215118 /* sample_data.txt in Resources */,
 				52AFE46D1D8EE46600B2AFEC /* support.html in Resources */,
 				52AFE4591D8EE46600B2AFEC /* step06-2.html in Resources */,
 				525C4A6F1D8D6E56005C15EA /* tab_flight-30x30.png in Resources */,
@@ -1046,7 +1042,7 @@
 					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
 					"$(PROJECT_DIR)/Libraries/MWMSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Puzzlebox.Orbit;
+				PRODUCT_BUNDLE_IDENTIFIER = io.puzzlebox.orbit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Orbit/Orbit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1076,7 +1072,7 @@
 					"$(PROJECT_DIR)/Libraries/MWM\\ SDK",
 					"$(PROJECT_DIR)/Libraries/MWMSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Puzzlebox.Orbit;
+				PRODUCT_BUNDLE_IDENTIFIER = io.puzzlebox.orbit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Orbit/Orbit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
